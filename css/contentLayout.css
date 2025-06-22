@@ -1,0 +1,324 @@
+.hpage_content_canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+}
+
+.hpage_content_layout {
+    width: 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hpage_content_block {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.hpage_content_layout.hpage_preset .hpage_content_block {
+    flex-grow: initial;
+    display: block;
+    width: auto;
+}
+
+.hpage_content_block.fr-view {
+    display: block;
+}
+
+/* Layout Presets */
+.hpage_content_layout.column_start_start {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hpage_content_layout.column_start_start {
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+
+.hpage_content_layout.column_start_center {
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+ }
+
+.hpage_content_layout.column_start_end {
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-end;
+ }
+
+.hpage_content_layout.row_start_start {
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+
+.hpage_content_layout.row_center_start {
+     flex-direction: row;
+     justify-content: center;
+     align-items: flex-start;
+ }
+
+.hpage_content_layout.row_end_start {
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: flex-start;
+ }
+
+.hpage_content_layout.row_between_start {
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+
+.hpage_content_layout.row_start_center {
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+ }
+
+.hpage_content_layout.row_center_center {
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+.hpage_content_layout.row_end_center {
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+ }
+
+.hpage_content_layout.row_between_center {
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+/* Plugin: Social Media */
+.hpage_social.follow {
+    display: flex;
+}
+
+.hpage_social.follow.useSpacing .hpage_follow_button {
+    margin-left: 3px;
+}
+
+.hpage_social.follow.useSpacing .hpage_follow_button:first-child {
+    margin-left: 0;
+}
+
+.hpage_social.follow.small .hpage_follow_button {
+    height: 30px;
+    width: 30px;
+}
+
+.hpage_social.follow.medium .hpage_follow_button {
+    height: 40px;
+    width: 40px;
+}
+
+.hpage_social.follow.big .hpage_follow_button {
+    height: 50px;
+    width: 50px;
+}
+
+.hpage_social.follow.rounded .hpage_follow_button {
+    border-radius: 5px;
+}
+
+.hpage_social.follow.ball .hpage_follow_button {
+    border-radius: 40px;
+}
+
+.hpage_social.follow.big .hpage_follow_button {
+    height: 50px;
+    width: 50px;
+}
+
+.hpage_follow_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    transition: margin 0.3s;
+}
+
+.hpage_follow_button:hover {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.hpage_follow_button svg {
+    height: 20px;
+    width: 20px;
+    max-height: 20px;
+    max-width: 20px;
+    fill: white;
+}
+
+.hpage_follow_button.facebook {
+    background-color: #3B5998;
+}
+
+.hpage_follow_button.twitter {
+    background-color: #55ACEE;
+}
+
+.hpage_follow_button.instagram {
+    background-color: #BC2A8D;
+}
+
+.hpage_follow_button.youtube {
+    background-color: #FF0000;
+}
+
+.hpage_follow_button.linkedin {
+    background-color: #308FC0;
+}
+
+.hpage_follow_button.github {
+    background-color: #585858;
+}
+
+.hpage_follow_button.pinterest {
+    background-color: #D2494F;
+}
+
+.hpage_follow_button.soundcloud {
+    background-color: #FC9C30;
+}
+
+.hpage_follow_button.tumblr {
+    background-color: #587087;
+}
+
+.hpage_follow_button.twitch {
+    background-color: #8064B3;
+}
+
+.hpage_follow_button.patreon {
+    background-color: #F77F6F;
+}
+
+.hpage_social.follow.white .hpage_follow_button {
+    background-color: #FFFFFF;
+}
+
+.hpage_social.follow.black .hpage_follow_button {
+    background-color: #000000;
+}
+
+.hpage_social.follow.white .hpage_follow_button svg {
+    fill: #000000;
+}
+
+.hpage_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background: black;
+    color: white;
+    padding: 10px 40px;
+    transition: background-color 0.3s;
+}
+
+.hpage_button:hover {
+    background: #444444;
+    color: white;
+}
+
+[data-block="interactive"] {
+    flex-grow: 0;
+}
+
+/* Override default */
+.hpage_content_canvas p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+}
+
+.hpage_content_canvas h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 0.67em;
+    padding-block-end: 0.67em;
+}
+
+.hpage_content_canvas h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 0.83em;
+    padding-block-end: 0.83em;
+}
+
+.hpage_content_canvas h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+
+.hpage_content_canvas h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 1.33em;
+    padding-block-end: 1.33em;
+}
+
+.hpage_content_canvas h5 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 1.67em;
+    padding-block-end: 1.67em;
+}
+
+.hpage_content_canvas h6 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 2.33em;
+    padding-block-end: 2.33em;
+}
+
+/* Emoticons */
+.fr-emoticon{
+    background-repeat: no-repeat !important;
+    font-size: inherit;
+    height: 1em;
+    width: 1em;
+    min-height: 20px;
+    min-width: 20px;
+    display: inline-block;
+    margin: -.1em .1em .1em;
+    line-height: 1;
+    vertical-align: middle
+}
+
+.fr-view img {
+    position: static;
+}
+
+.fr-view table td,.fr-view table th  {
+    border: 0 solid #ece3e3;
+}
+
+.fr-view img.fr-dii {
+    margin-left: 0;
+    margin-right: 0;
+}

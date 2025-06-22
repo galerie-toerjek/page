@@ -1,0 +1,418 @@
+@font-face{
+      font-family:      'Arimo';
+      local:            Arimo;
+      src:              url('../fonts/arimo/arimo.eot');
+      src:              url('../fonts/arimo/arimod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/arimo/arimo.woff') format('woff'),
+                        url('../fonts/arimo/arimo.ttf') format('truetype'),
+                        url('../fonts/arimo/arimo.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Arvo';
+      local:            Arvo;
+      src:              url('../fonts/arvo/arvo.eot');
+      src:              url('../fonts/arvo/arvod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/arvo/arvo.woff') format('woff'),
+                        url('../fonts/arvo/arvo.ttf') format('truetype'),
+                        url('../fonts/arvo/arvo.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Bitter';
+      local:            Bitter;
+      src:              url('../fonts/bitter/bitter.eot');
+      src:              url('../fonts/bitter/bitterd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/bitter/bitter.woff') format('woff'),
+                        url('../fonts/bitter/bitter.ttf') format('truetype'),
+                        url('../fonts/bitter/bitter.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Cabin';
+      local:            Cabin;
+      src:              url('../fonts/cabin/cabin.eot');
+      src:              url('../fonts/cabin/cabind41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/cabin/cabin.woff') format('woff'),
+                        url('../fonts/cabin/cabin.ttf') format('truetype'),
+                        url('../fonts/cabin/cabin.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Cherry Cream Soda';
+      local:            Cherry Cream Soda;
+      src:              url('../fonts/cherry_cream_soda/cherry_cream_soda.eot');
+      src:              url('../fonts/cherry_cream_soda/cherry_cream_sodad41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/cherry_cream_soda/cherry_cream_soda.woff') format('woff'),
+                        url('../fonts/cherry_cream_soda/cherry_cream_soda.ttf') format('truetype'),
+                        url('../fonts/cherry_cream_soda/cherry_cream_soda.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Chewy';
+      local:            Chewy;
+      src:              url('../fonts/chewy/chewy.eot');
+      src:              url('../fonts/chewy/chewyd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/chewy/chewy.woff') format('woff'),
+                        url('../fonts/chewy/chewy.ttf') format('truetype'),
+                        url('../fonts/chewy/chewy.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Coming Soon';
+      local:            Coming Soon;
+      src:              url('../fonts/coming_soon/coming_soon.eot');
+      src:              url('../fonts/coming_soon/coming_soond41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/coming_soon/coming_soon.woff') format('woff'),
+                        url('../fonts/coming_soon/coming_soon.ttf') format('truetype'),
+                        url('../fonts/coming_soon/coming_soon.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Crafty Girls';
+      local:            Crafty Girls;
+      src:              url('../fonts/crafty_girls/crafty_girls.eot');
+      src:              url('../fonts/crafty_girls/crafty_girlsd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/crafty_girls/crafty_girls.woff') format('woff'),
+                        url('../fonts/crafty_girls/crafty_girls.ttf') format('truetype'),
+                        url('../fonts/crafty_girls/crafty_girls.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Dancing Script';
+      local:            Dancing Script;
+      src:              url('../fonts/dancing_script/dancing_script.eot');
+      src:              url('../fonts/dancing_script/dancing_scriptd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/dancing_script/dancing_script.woff') format('woff'),
+                        url('../fonts/dancing_script/dancing_script.ttf') format('truetype'),
+                        url('../fonts/dancing_script/dancing_script.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Droid Sans';
+      src:              url('../fonts/droid_sans/droid_sans.eot');
+      src:              url('../fonts/droid_sans/droid_sansd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/droid_sans/droid_sans.woff') format('woff'),
+                        url('../fonts/droid_sans/droid_sans.ttf') format('truetype'),
+                        url('../fonts/droid_sans/droid_sans.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Droid Serif';
+      local:            Droid Serif;
+      src:              url('../fonts/droid_serif/droid_serif.eot');
+      src:              url('../fonts/droid_serif/droid_serifd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/droid_serif/droid_serif.woff') format('woff'),
+                        url('../fonts/droid_serif/droid_serif.ttf') format('truetype'),
+                        url('../fonts/droid_serif/droid_serif.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Francois One';
+      local:            Francois One;
+      src:              url('../fonts/francois_one/francois_one.eot');
+      src:              url('../fonts/francois_one/francois_oned41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/francois_one/francois_one.woff') format('woff'),
+                        url('../fonts/francois_one/francois_one.ttf') format('truetype'),
+                        url('../fonts/francois_one/francois_one.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Happy Monkey';
+      local:            Happy Monkey;
+      src:              url('../fonts/happy_monkey/happy_monkey.eot');
+      src:              url('../fonts/happy_monkey/happy_monkeyd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/happy_monkey/happy_monkey.woff') format('woff'),
+                        url('../fonts/happy_monkey/happy_monkey.ttf') format('truetype'),
+                        url('../fonts/happy_monkey/happy_monkey.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Lato';
+      local:            Lato;
+      src:              url('../fonts/lato/lato.eot');
+      src:              url('../fonts/lato/latod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/lato/lato.woff') format('woff'),
+                        url('../fonts/lato/lato.ttf') format('truetype'),
+                        url('../fonts/lato/lato.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Lobster';
+      local:            Lobster;
+      src:              url('../fonts/lobster/lobster.eot');
+      src:              url('../fonts/lobster/lobsterd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/lobster/lobster.woff') format('woff'),
+                        url('../fonts/lobster/lobster.ttf') format('truetype'),
+                        url('../fonts/lobster/lobster.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Lora';
+      local:            Lora;
+      src:              url('../fonts/lora/lora.eot');
+      src:              url('../fonts/lora/lorad41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/lora/lora.woff') format('woff'),
+                        url('../fonts/lora/lora.ttf') format('truetype'),
+                        url('../fonts/lora/lora.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Nunito';
+      local:            Nunito;
+      src:              url('../fonts/nunito/nunito.eot');
+      src:              url('../fonts/nunito/nunitod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/nunito/nunito.woff') format('woff'),
+                        url('../fonts/nunito/nunito.ttf') format('truetype'),
+                        url('../fonts/nunito/nunito.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Open Sans';
+      local:            Open Sans;
+      src:              url('../fonts/open_sans/open_sans.eot');
+      src:              url('../fonts/open_sans/open_sansd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/open_sans/open_sans.woff') format('woff'),
+                        url('../fonts/open_sans/open_sans.ttf') format('truetype'),
+                        url('../fonts/open_sans/open_sans.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Open Sans Condensed';
+      local:            Open Sans Condensed;
+      src:              url('../fonts/open_sans_condensed/open_sans_condensed.eot');
+      src:              url('../fonts/open_sans_condensed/open_sans_condensedd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/open_sans_condensed/open_sans_condensed.woff') format('woff'),
+                        url('../fonts/open_sans_condensed/open_sans_condensed.ttf') format('truetype'),
+                        url('../fonts/open_sans_condensed/open_sans_condensed.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Oswald';
+      local:            Oswald;
+      src:              url('../fonts/oswald/oswald.eot');
+      src:              url('../fonts/oswald/oswaldd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/oswald/oswald.woff') format('woff'),
+                        url('../fonts/oswald/oswald.ttf') format('truetype'),
+                        url('../fonts/oswald/oswald.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Pacifico';
+      local:            Pacifico;
+      src:              url('../fonts/pacifico/pacifico.eot');
+      src:              url('../fonts/pacifico/pacificod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/pacifico/pacifico.woff') format('woff'),
+                        url('../fonts/pacifico/pacifico.ttf') format('truetype'),
+                        url('../fonts/pacifico/pacifico.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'PT Sans';
+      local:            PT Sans;
+      src:              url('../fonts/pt_sans/pt_sans.eot');
+      src:              url('../fonts/pt_sans/pt_sansd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/pt_sans/pt_sans.woff') format('woff'),
+                        url('../fonts/pt_sans/pt_sans.ttf') format('truetype'),
+                        url('../fonts/pt_sans/pt_sans.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'PT Serif';
+      local:            PT Serif;
+      src:              url('../fonts/pt_serif/pt_serif.eot');
+      src:              url('../fonts/pt_serif/pt_serifd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/pt_serif/pt_serif.woff') format('woff'),
+                        url('../fonts/pt_serif/pt_serif.ttf') format('truetype'),
+                        url('../fonts/pt_serif/pt_serif.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Raleway';
+      local:            Raleway;
+      src:              url('../fonts/raleway/raleway.eot');
+      src:              url('../fonts/raleway/ralewayd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/raleway/raleway.woff') format('woff'),
+                        url('../fonts/raleway/raleway.ttf') format('truetype'),
+                        url('../fonts/raleway/raleway.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Roboto';
+      local:            Roboto;
+      src:              url('../fonts/roboto/roboto.eot');
+      src:              url('../fonts/roboto/robotod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/roboto/roboto.woff') format('woff'),
+                        url('../fonts/roboto/roboto.ttf') format('truetype'),
+                        url('../fonts/roboto/roboto.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Roboto Condensed';
+      local:            Roboto Condensed;
+      src:              url('../fonts/roboto_condensed/roboto_condensed.eot');
+      src:              url('../fonts/roboto_condensed/roboto_condensedd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/roboto_condensed/roboto_condensed.woff') format('woff'),
+                        url('../fonts/roboto_condensed/roboto_condensed.ttf') format('truetype'),
+                        url('../fonts/roboto_condensed/roboto_condensed.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Rock Salt';
+      local:            Rock Salt;
+      src:              url('../fonts/rock_salt/rock_salt.eot');
+      src:              url('../fonts/rock_salt/rock_saltd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/rock_salt/rock_salt.woff') format('woff'),
+                        url('../fonts/rock_salt/rock_salt.ttf') format('truetype'),
+                        url('../fonts/rock_salt/rock_salt.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Rokkitt';
+      local:            Rokkitt;
+      src:              url('../fonts/rokkitt/rokkitt.eot');
+      src:              url('../fonts/rokkitt/rokkittd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/rokkitt/rokkitt.woff') format('woff'),
+                        url('../fonts/rokkitt/rokkitt.ttf') format('truetype'),
+                        url('../fonts/rokkitt/rokkitt.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Shadows Into Light';
+      local:            Shadows Into Light;
+      src:              url('../fonts/shadows_into_light/shadows_into_light.eot');
+      src:              url('../fonts/shadows_into_light/shadows_into_lightd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/shadows_into_light/shadows_into_light.woff') format('woff'),
+                        url('../fonts/shadows_into_light/shadows_into_light.ttf') format('truetype'),
+                        url('../fonts/shadows_into_light/shadows_into_light.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Source Sans Pro';
+      local:            Source Sans Pro;
+      src:              url('../fonts/source_sans_pro/source_sans_pro.eot');
+      src:              url('../fonts/source_sans_pro/source_sans_prod41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/source_sans_pro/source_sans_pro.woff') format('woff'),
+                        url('../fonts/source_sans_pro/source_sans_pro.ttf') format('truetype'),
+                        url('../fonts/source_sans_pro/source_sans_pro.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Syncopate';
+      local:            Syncopate;
+      src:              url('../fonts/syncopate/syncopate.eot');
+      src:              url('../fonts/syncopate/syncopated41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/syncopate/syncopate.woff') format('woff'),
+                        url('../fonts/syncopate/syncopate.ttf') format('truetype'),
+                        url('../fonts/syncopate/syncopate.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'The Girl Next Door';
+      local:            The Girl Next Door;
+      src:              url('../fonts/the_girl_next_door/the_girl_next_door.eot');
+      src:              url('../fonts/the_girl_next_door/the_girl_next_doord41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/the_girl_next_door/the_girl_next_door.woff') format('woff'),
+                        url('../fonts/the_girl_next_door/the_girl_next_door.ttf') format('truetype'),
+                        url('../fonts/the_girl_next_door/the_girl_next_door.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Ubuntu';
+      local:            Ubuntu;
+      src:              url('../fonts/ubuntu/ubuntu.eot');
+      src:              url('../fonts/ubuntu/ubuntud41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/ubuntu/ubuntu.woff') format('woff'),
+                        url('../fonts/ubuntu/ubuntu.ttf') format('truetype'),
+                        url('../fonts/ubuntu/ubuntu.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Voltaire';
+      local:            Voltaire;
+      src:              url('../fonts/voltaire/voltaire.eot');
+      src:              url('../fonts/voltaire/voltaired41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/voltaire/voltaire.woff') format('woff'),
+                        url('../fonts/voltaire/voltaire.ttf') format('truetype'),
+                        url('../fonts/voltaire/voltaire.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
+
+@font-face{
+      font-family:      'Yanone Kaffeesatz';
+      local:            Yanone Kaffeesatz;
+      src:              url('../fonts/yanone_kaffeesatz/yanone_kaffeesatz.eot');
+      src:              url('../fonts/yanone_kaffeesatz/yanone_kaffeesatzd41d.eot?#iefix') format('embedded-opentype'),
+                        url('../fonts/yanone_kaffeesatz/yanone_kaffeesatz.woff') format('woff'),
+                        url('../fonts/yanone_kaffeesatz/yanone_kaffeesatz.ttf') format('truetype'),
+                        url('../fonts/yanone_kaffeesatz/yanone_kaffeesatz.svg') format('svg');
+      font-weight:      normal;
+      font-style:       normal;
+}
