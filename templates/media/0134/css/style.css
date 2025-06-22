@@ -1,0 +1,158 @@
+.clearfix {
+      clear: both;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+a {
+	color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+	color: #032D38;
+	text-decoration: none;
+}
+
+body {
+	background-image: url("../img/bg.gif");
+	background-repeat: repeat-x;
+	background-color: #8a8a68;
+	color: #000;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.wrapper {
+	margin: auto;
+	width: 1075px;
+}
+
+.header {
+	background-image: url("../img/header.jpg");
+	width: 1075px;
+	height: 181px;
+}
+
+#logo {
+	color: #fff;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 58px 100px 0 150px;
+}
+
+.page {
+	background-image: url("../img/page.jpg");
+	width: 1075px;
+	min-height: 370px;
+}
+
+.navigation {
+	width: 248px;
+	min-height: 300px;
+	float:left;
+}
+
+.navi_head {
+	width: 190px;
+	background-image: url("../img/navi_head.jpg");
+	background-repeat: no-repeat;
+	padding: 15px 25px 10px 35px;
+	color: #000;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.content {
+	float:left;
+	width: 827px;
+	min-height: 300px;
+}
+
+.cont_head {
+	width: 755px;
+	background-image: url("../img/cont_head.jpg");
+	background-repeat: no-repeat;
+	padding: 15px 35px 5px 26px;
+	color: #000;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.cont {
+	margin-left: 11px;
+	width: 784px;
+	min-height: 300px;
+}
+
+.cont_text {
+	padding: 0 15px 0 15px;
+}
+
+.footer {
+	background-image: url("../img/footer.jpg");
+	width: 1075px;
+	height: 147px;
+}
+
+.navi_cont > ul > li > a {
+	color: #5F5F5F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navi_cont > ul > li > a:hover {
+	color: #002A47;
+    text-decoration: none;
+}
+
+.navi_cont > ul > li.active, .navi_cont > ul > li.active > a {
+      color: #002A47;
+}
+
+.navi_cont {
+	width: 225px;
+	margin-top: -5px;
+}
+
+.navi_cont > ul > li {
+	color: #5F5F5F;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.navi_cont > ul {
+	padding-left: 35px;
+}
+
+.submenu_item {
+	margin-left: 18px;
+}
+
+.menu_heading {
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	color: #000 !important;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.submenu_item + .menu_heading {
+	font-size: 11pt;
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+}
+
+.menu_separator {
+	list-style-type: none;
+	margin-top: 12px !important;
+	margin-bottom: 12px !important;
+}
